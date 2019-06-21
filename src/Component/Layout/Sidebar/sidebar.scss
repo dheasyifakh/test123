@@ -1,0 +1,52 @@
+
+.sidebar{
+    height: calc(100% - 60px);
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    display: block;
+    z-index: 1;
+    color: aliceblue;
+    font-weight: 200;
+    transition-duration: .2s, .2s, .35s;
+    background-color: #006064;
+}
+
+.user-wrapper{
+  .user{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('./../../../assets/images/default/bg-profile.jpg');
+    .photo{
+      width:61px;
+      height: 61px;
+      margin-right: 10px;
+    }
+    .userinfo{
+      flex-grow: 1px;
+      .username{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+      }
+      .title {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 17px;
+        color: #b2ff59;
+      }
+    }
+  }
+}
+
+
+ul{
+  
+}
+
